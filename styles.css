@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #5a67d8;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+header h1, header p {
+    margin: 5px 0;
+}
+
+h2 {
+    color: #5a67d8;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#designs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.design-option img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+input[type="radio"]:checked + label img {
+    border-color: #5a67d8;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #5a67d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #434190;
+}
+
+#cartItems {
+    list-style: none;
+    padding: 0;
+}
+
+#cartItems li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f1f1f1;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
+}
